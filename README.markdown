@@ -14,6 +14,10 @@ Add following to your projects `project/plugins.sbt`
 
     addSbtPlugin("com.github.hexx" % "play-haxe" % "0.0.2")
 
+Then add following to `build.sbt`
+
+    playHaxeSettings
+
 After Installation, this plugin works like the built-in CoffeeScript compiler.
 
 [Documentation: AssetsCoffeeScript - Playframework](http://www.playframework.org/documentation/latest/AssetsCoffeeScript "Documentation: AssetsCoffeeScript - Playframework")
